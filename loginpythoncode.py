@@ -19,7 +19,7 @@ driver.press_keycode(40)
 driver.press_keycode(34)
 driver.press_keycode(36)
 driver.press_keycode(49)
-# input username 'wolfhu'
+# input username 'wolfhu' please confirm your choice
 driver.find_element_by_id('com.izp.f2c:id/login_inputpassword').click()
 i=1
 while i<=6:
