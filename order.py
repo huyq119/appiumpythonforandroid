@@ -29,5 +29,5 @@ driver.press_keycode(29)
 # input password '111111a'
 driver.find_element_by_id('com.izp.f2c:id/login_login_button').click()
 time.sleep(10)
-driver.find_element_by_id('')
+driver.find_element_by_id
 driver.reset()
