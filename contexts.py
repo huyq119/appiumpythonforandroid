@@ -16,3 +16,4 @@ driver.find_element_by_id("com.izp.f2c:id/home_rb_discover").click()
 driver.find_element_by_id('com.izp.f2c:id/home_rb_home').click()
 
 print driver.contexts
+# 打印页面元素，太棒了
