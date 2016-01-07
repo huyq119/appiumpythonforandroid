@@ -17,20 +17,11 @@ dr.find_element_by_id('com.izp.f2c:id/home_rb_discover').click()
 # use ui automator viewer to find resource id
 dr.find_element_by_id('com.izp.f2c:id/home_rb_mine').click()
 dr.find_element_by_id('com.izp.f2c:id/nologin').click()
-dr.find_element_by_id('com.izp.f2c:id/login_inputusername').click()
-dr.press_keycode(51)
-dr.press_keycode(43)
-dr.press_keycode(40)
-dr.press_keycode(34)
-dr.press_keycode(36)
-dr.press_keycode(49)
+utext = dr.find_element_by_id('com.izp.f2c:id/login_inputusername')
+utext.send_keys('wolfhu')
 # input username 'wolfhu' please confirm your choice
-dr.find_element_by_id('com.izp.f2c:id/login_inputpassword').click()
-i = 1
-while i <= 6:
-    dr.press_keycode(8)
-    i += 1
-dr.press_keycode(29)
+ptext = dr.find_element_by_id('com.izp.f2c:id/login_inputpassword')
+ptext.send_keys('111111a')
 # input password '111111a'
 dr.find_element_by_id('com.izp.f2c:id/login_login_button').click()
 time.sleep(10)
