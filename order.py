@@ -11,6 +11,9 @@ desired_caps['deviceName'] = 'emulator-5554 '
 desired_caps['platformVersion'] = '4.4.2'
 desired_caps['appPackage'] = 'com.izp.f2c'
 desired_caps['appActivity'] = 'activity.HomeActivity'  # config the cap
+desired_caps['newCommandTimeout'] = '30'  # set the session wait time
+desired_caps['noReset'] = 'true'  # reset the app's state before the session starts
+
 
 dr = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
 dr.find_element_by_id('com.izp.f2c:id/home_rb_discover').click()
