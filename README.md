@@ -1,3 +1,3 @@
 # appiumpythonforandroid
 
-##  这是本人练习使用的
+##  杩欐槸鎴戠粌涔犱娇鐢ㄧ殑
