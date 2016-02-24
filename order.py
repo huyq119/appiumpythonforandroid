@@ -33,5 +33,5 @@ dr.find_element_by_id('com.izp.f2c:id/top_tv_left').click()
 time.sleep(20)
 dr.find_element_by_android_uiautomator('new UiSelector().text("流行饰品")').click()
 time.sleep(20)
-
+#   dfdffdf
 dr.reset()
