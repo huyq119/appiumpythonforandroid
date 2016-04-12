@@ -26,7 +26,7 @@ def portScan(tgtHost, tgtPorts):
     try:
         tgtName = gethostbyaddr(tgtIP)
         print '\n[+] Scan Results for :'+ tgtName[0]
-    except:
+    except:\
         print '\n[+] Scan Results for:' + tgtIP
     setdefaulttimeout(1)
     for tgtPort in tgtPorts:
