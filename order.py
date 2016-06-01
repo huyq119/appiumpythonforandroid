@@ -8,7 +8,7 @@ from appium import webdriver
 desired_caps = {}
 desired_caps['platformName'] = 'Android'  # test platform
 desired_caps['deviceName'] = 'emulator-5554 '
-desired_caps['platformVersion'] = '4.4.2'
+desired_caps['platformVersion'] = '6.0'
 desired_caps['appPackage'] = 'com.izp.f2c'
 desired_caps['appActivity'] = 'activity.HomeActivity'  # config the cap
 desired_caps['newCommandTimeout'] = '30'  # set the session wait time
